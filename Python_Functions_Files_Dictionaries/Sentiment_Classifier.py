@@ -8,10 +8,12 @@ The files positive_words.txt and negative_words.txt contain words that express p
 negative sentiment respectively.
 
 This program detects how positive or negative each tweet is. 
-A csv file is created, which contains columns for the Number of Retweets, Number of Replies, 
+Inputs for the program are the tweets in the "project_twitter_data.csv" file. 
+Outputs of the program are one csv file named "resulting_data.csv" and a plot named 'Retweets_vs_NetSentimentalScore.png'.
+The csv file output contains columns for the Number of Retweets, Number of Replies, 
 Positive Score (which is how many happy words are in the tweet), 
 Negative Score (which is how many angry words are in the tweet), and the Net Score for each tweet. 
-A graph of the Net Score vs Number of Retweets is plotted.
+The image has a plot of the Net Score vs Number of Retweets. 
 """
 
 import pandas as pd 
