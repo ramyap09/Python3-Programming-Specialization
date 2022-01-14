@@ -7,8 +7,8 @@ To avoid problems with rate limits and site accessibility, a cache file ("perman
 for all the queries we need to make to both OMDB and TasteDive and a special module 'requests_with_caching' is used to 
 fetch this data from the cache file.
 
-Input is a list of movie titles.
-Output is a sorted list of related movie titles in the descending order of their Rotten Tomato rating 
+Input of the program is a list of movie titles.
+Output of the program is a sorted list of related movie titles in the descending order of their Rotten Tomato rating 
 (5 movie titles for each input movie title, with duplicates removed)
 
 Be sure to use only those queries for which data is present in the cache file. 
